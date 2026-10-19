@@ -1,0 +1,8 @@
+flask
+python-dotenv
+
+# Drivers: puedes borrar los que no vayas a usar
+psycopg2-binary   # PostgreSQL
+pymysql           # MySQL / MariaDB
+pyodbc            # SQL Server (además necesita el "ODBC Driver for SQL Server" instalado)
+oracledb          # Oracle

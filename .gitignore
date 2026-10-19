@@ -1,0 +1,28 @@
+# ===== Credenciales (NUNCA subir). Cada integrante crea su propio .env =====
+.env
+# .env.example SI se sube (es la plantilla sin datos sensibles)
+
+# ===== Entorno virtual de Python =====
+venv/
+.venv/
+env/
+
+# ===== Caché de Python =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Configuración personal de editores =====
+.vscode/
+.idea/
+
+# ===== Archivos temporales y de pruebas locales =====
+diag.py
+*.log
+
+# ===== Oracle Instant Client (carpeta local pesada) =====
+instantclient*/
+
+# ===== Archivos del sistema =====
+.DS_Store
+Thumbs.db
